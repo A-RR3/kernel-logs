@@ -1,0 +1,10 @@
+[Unit]
+Description=Kernel Logs
+
+[Timer]
+Type=simple
+OnUnitActiveSec=1h
+Persistent=true
+
+[Install]
+WantedBy=timers.target
